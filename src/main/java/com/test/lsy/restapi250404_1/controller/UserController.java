@@ -2,6 +2,7 @@ package com.test.lsy.restapi250404_1.controller;
 
 import com.test.lsy.restapi250404_1.dto.response1.Response;
 import com.test.lsy.restapi250404_1.dto.response2.Response2;
+import com.test.lsy.restapi250404_1.dto.response3.Response3;
 import com.test.lsy.restapi250404_1.service.UserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
@@ -9,6 +10,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.List;
 
 @RestController
 @RequestMapping("/api/users")
@@ -27,5 +30,10 @@ public class UserController {
     @GetMapping("/v1/2")
     public Response2 getUsers2() {
         return service.getUsers2();
+    }
+
+    @GetMapping("/v1/3")
+    public List<Response3> getUsers3() {
+        return service.getUsers3();
     }
 }
