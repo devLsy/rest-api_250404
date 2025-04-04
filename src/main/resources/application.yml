@@ -1,0 +1,82 @@
+server:
+  port: 8080
+
+user:
+  json: |
+    {
+      "results": [
+        {
+          "gender": "female",
+          "name": { "title": "Ms", "first": "Katja", "last": "Hillmann" },
+          "location": {
+            "street": { "number": 8884, "name": "Wiesenstraße" },
+            "city": "Pottenstein",
+            "state": "Sachsen",
+            "country": "Germany",
+            "postcode": 31247,
+            "coordinates": { "latitude": "-54.3104", "longitude": "75.6855" },
+            "timezone": { "offset": "-1:00", "description": "Azores, Cape Verde Islands" }
+          },
+          "email": "katja.hillmann@example.com",
+          "login": {
+            "uuid": "85d6efbc-3d42-40b3-a464-b195c488c48d",
+            "username": "goldenpanda210",
+            "password": "grizzly"
+          },
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/women/77.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/77.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/77.jpg"
+          }
+        },
+        {
+          "gender": "male",
+          "name": { "title": "Mr", "first": "Liam", "last": "Anderson" },
+          "location": {
+            "street": { "number": 1234, "name": "Maple Street" },
+            "city": "Toronto",
+            "state": "Ontario",
+            "country": "Canada",
+            "postcode": "M5G 2C3",
+            "coordinates": { "latitude": "43.6532", "longitude": "-79.3832" },
+            "timezone": { "offset": "-5:00", "description": "Eastern Time (US & Canada)" }
+          },
+          "email": "liam.anderson@example.com",
+          "login": {
+            "uuid": "5a6b8cde-2f30-4c11-a36c-947c7d3b9f80",
+            "username": "liamtoronto",
+            "password": "password123"
+          },
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/men/45.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/men/45.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/men/45.jpg"
+          }
+        },
+        {
+          "gender": "female",
+          "name": { "title": "Mrs", "first": "Sophie", "last": "Dubois" },
+          "location": {
+            "street": { "number": 5678, "name": "Rue de la Paix" },
+            "city": "Paris",
+            "state": "Île-de-France",
+            "country": "France",
+            "postcode": 75001,
+            "coordinates": { "latitude": "48.8566", "longitude": "2.3522" },
+            "timezone": { "offset": "+1:00", "description": "Central European Time" }
+          },
+          "email": "sophie.dubois@example.com",
+          "login": {
+            "uuid": "7c2e5f3a-08d4-4c99-97ec-61a3f897b7d6",
+            "username": "sophieparis",
+            "password": "bonjour123"
+          },
+          "picture": {
+            "large": "https://randomuser.me/api/portraits/women/35.jpg",
+            "medium": "https://randomuser.me/api/portraits/med/women/35.jpg",
+            "thumbnail": "https://randomuser.me/api/portraits/thumb/women/35.jpg"
+          }
+        }
+      ],
+      "info": { "seed": "fa84b87fe3cc5250", "results": 3, "page": 1, "version": "1.4" }
+    }
